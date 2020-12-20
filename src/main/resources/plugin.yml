@@ -1,0 +1,13 @@
+name: Kit
+version: ${project.version}
+main: me.naete.kit.Main
+api-version: 1.16
+authors: [ Naete ]
+description: Gives users access to a kit.
+
+commands:
+  kit:
+    description: Claim hard-coded kit.
+permissions:
+  kit.use:
+    description: Allows a user to claim kit.
